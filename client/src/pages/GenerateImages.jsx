@@ -51,7 +51,7 @@ const GenerateImages = () => {
         toast.error(data.message);
       }
     } catch (error) {
-      toast.error(error.message);
+      toast.error("🚫 This feature is disabled in demo mode.");
     }
     setLoading(false);
   };

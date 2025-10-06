@@ -45,7 +45,7 @@ const RemoveObject = () => {
         toast.error(data.message);
       }
     } catch (error) {
-      toast.error("🚫 This feature is disabled in demo mode.");
+      toast.error("This feature is disabled in demo mode.");
     }
     setLoading(false);
   };

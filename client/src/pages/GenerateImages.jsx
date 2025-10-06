@@ -6,10 +6,6 @@ import toast from "react-hot-toast";
 
 axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
- const handleDisabledFeature = () => {
-    toast.error("🚫 This feature is disabled in demo mode.");
-  };
-
 const GenerateImages = () => {
   const imageStyle = [
     "Realistic",
@@ -118,7 +114,6 @@ const GenerateImages = () => {
 
           <br />
           <button
-            onClick={handleDisabledFeature}
             disabled={loading}
             className="w-full flex justify-center items-center gap-2 bg-gradient-to-r from-[#00AD25] to-[#04FF50] text-white px-4 py-2 mt-6 text-sm rounded-lg cursor-pointer"
           >

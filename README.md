@@ -29,12 +29,12 @@ The platform features **🔐 secure authentication**, **💳 subscription billin
 **Frontend:**  
 - React  
 - Clerk (Authentication)  
-- TailwindCSS / DaisyUI  
+- TailwindCSS
 
 **Backend:**  
 - Node.js + Express  
 - PostgreSQL (Neon)  
-- AI integrations (OpenAI or similar APIs)  
+- AI integrations (Gemini)  
 
 **Deployment:**  
 - Ready for **Vercel** 

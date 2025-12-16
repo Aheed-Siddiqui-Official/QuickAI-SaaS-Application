@@ -37,7 +37,7 @@ The platform features **🔐 secure authentication**, **💳 subscription billin
 - AI integrations (OpenAI or similar APIs)  
 
 **Deployment:**  
-- Ready for **Vercel**, **Render**, or **Railway**  
+- Ready for **Vercel** 
 - Serverless-friendly architecture  
 
 ---
